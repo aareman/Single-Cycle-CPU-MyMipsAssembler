@@ -1,0 +1,16 @@
+library ieee; 
+use ieee.std_logic_1164.all; 
+use ieee.numeric_std.all;
+
+entity ALU is     
+	port(a: in std_logic_vector(31 downto 0);
+			o1,o2: out std_logic_vector(31 downto 0));
+			
+end ALU; 
+	-- purpose: Main 	architecture details for SIMPREG 
+architecture arch of ALU is 
+begin		
+	o1 <= a;
+	o2 <= a;
+end arch;
+

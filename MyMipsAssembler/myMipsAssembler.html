@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Mips Assembler</title>
+</head>
+<style>
+textarea {
+	width:500px;
+	height:400px;
+	padding:10px 20px 10px 20px;
+	text-align:left;
+}
+</style>
+<body>
+	<script src="myMipsAssembler.js"></script>
+	<textarea id="main">bneq r2, r5, 2
+li r3, 5
+
+	</textarea>
+	</br>
+	<button onclick="compile(document.getElementById('main').value);">Assemble</button>
+	<button>Save Output</button>
+</body>		
+</html>
+

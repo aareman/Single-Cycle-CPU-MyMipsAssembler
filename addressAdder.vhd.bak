@@ -1,0 +1,33 @@
+library ieee; 
+use ieee.std_logic_1164.all; 
+use IEEE.numeric_std.all;
+
+entity adder is     
+	port (true, EN: in std_logic;
+			immidiate: in std_logic_vector(31 downto 0);
+			newAddress: out std_logic_vector(4 downto 0));    -- clock and reset 
+end adder; 
+	-- purpose: Main 	architecture details for SIMPREG 
+architecture arch of adder is 
+	signal temp: std_logic_vector(4 downto 0):= "00000";
+	signal temp1: std_logic_vector(4 downto 0);
+	begin
+	process(Nxt,CLK)
+	
+	begin
+		
+		if(rising_edge(CLK)) then
+			DOUT <= temp;
+		end if;
+		
+		if(rising_edge(Nxt)) then
+			if(temp1 = DIN) then
+				temp <= std_logic_vector(unsigned(temp) + 1);
+			else 
+				temp <= DIN;
+			end if;
+		end if;
+		temp1 <= DIN;
+	end process;
+end arch;
+

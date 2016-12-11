@@ -1,0 +1,28 @@
+library ieee; 
+use ieee.std_logic_1164.all; 
+
+entity instructionFile is     
+	port (address: in std_logic_vector(4 downto 0);
+			outInstruction: out std_logic_vector(31 downto 0));    -- clock and reset 
+end instructionFile; 
+	-- purpose: Main 	architecture details for SIMPREG 
+architecture arch of instructionFile is 
+	type NIBBLE is array (31 downto 0) of std_logic;
+	type MEM is array (0 to 31) of NIBBLE;
+-- an array "array of array" type
+	variable MEM32X32 : MEM;
+	
+	MEM32X32(0):= "01010100000010101111111111111111"; -- li r10, -1
+	MEM32X32(1):= "01010100000101000000000000000010"; -- li r20, 2
+	MEM32X32(2):= "00010010100010101111000000000000"; -- add r30, r20, r10
+	
+	begin  
+	
+	-- SIMPLE     
+process (address)	
+begin
+	outInstruction <= MEM32X32(to_unsigned(address));	
+end process;
+
+end arch;
+
