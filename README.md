@@ -1,0 +1,2 @@
+# Single-Cycle-CPU-MyMipsAssembler
+The final project for my computer organization class. The projected contains a fully functional vhdl single cycle CPU for use on an FPGA. It also contains a JS custom MIPS assembler for converting basic MIPS programs into machine instructions to be run on the CPU. For this project I created a MIPS Fibonacci counting program assembled it and ran it successfully on the FPGA board.
