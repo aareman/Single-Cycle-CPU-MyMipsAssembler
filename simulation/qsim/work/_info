@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dX:\CSC 342_343\SingleCycleCPULab\simulation\qsim
+vInstruction_man
+Z1 IJ=7@Z]<]OB:60`cf`;nRa3
+Z2 VXXjRA:`>XOlOQ5kGL<;E_0
+Z3 dX:\CSC 342_343\SingleCycleCPULab\simulation\qsim
+Z4 w1462576769
+Z5 8SingleCycleOne.vo
+Z6 FSingleCycleOne.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|SingleCycleOne.vo|
+Z9 o-work work -O0
+Z10 n@instruction_man
+!i10b 1
+Z11 !s100 8R1Vm7lT[S^5C4UlSU@HG2
+!s85 0
+Z12 !s108 1462576770.576000
+Z13 !s107 SingleCycleOne.vo|
+!s101 -O0
+vInstruction_man_vlg_check_tst
+!i10b 1
+Z14 !s100 MDH2G_Y<Gc09i2U?1M:VS1
+Z15 IIiOC=OV<HN2U4];mo2Wlj1
+Z16 VNdVQKTFemZ5`J;3F<4hdN0
+R3
+Z17 w1462576767
+Z18 8SingleCycleOne.vt
+Z19 FSingleCycleOne.vt
+L0 67
+R7
+r1
+!s85 0
+31
+Z20 !s108 1462576770.786000
+Z21 !s107 SingleCycleOne.vt|
+Z22 !s90 -work|work|SingleCycleOne.vt|
+!s101 -O0
+R9
+Z23 n@instruction_man_vlg_check_tst
+vInstruction_man_vlg_sample_tst
+!i10b 1
+Z24 !s100 0NT;[B^URAUiHY1aDL`k;3
+Z25 I=CRjmk=GW>93UcnA[h;eV0
+Z26 VRbog6=E3_`fCmlogJNYMN2
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@instruction_man_vlg_sample_tst
+vInstruction_man_vlg_vec_tst
+!i10b 1
+Z28 !s100 1CEEAm:laleFb]W^8ZoS11
+Z29 IBPHB>F]B<c5F[n2L7X92W2
+Z30 VEEo][a3dRRBLTB=6YXKUo2
+R3
+R17
+R18
+R19
+Z31 L0 859
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@instruction_man_vlg_vec_tst
+vr_typeIn
+Z33 !s100 CacYV]Y:kOd<GiR48Qk582
+Z34 I=YRJB6Ko^?K8ZY=1h>odJ2
+Z35 V4<hM;7U?ZSZf`hTS2e@Cm0
+R3
+Z36 w1461010307
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z37 nr_type@in
+Z38 !s108 1461010308.513000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vr_typeIn_vlg_check_tst
+Z39 !s100 CmR?fIiDVoQ43XM`h4mgZ1
+Z40 Ig3M^m>8h5h@;PU4^E4WM?0
+Z41 VagORekY4APCFm4dY3oANM1
+R3
+Z42 w1461010306
+R18
+R19
+L0 63
+R7
+r1
+31
+Z43 !s108 1461010308.633000
+Z44 !s107 SingleCycleOne.vt|
+R22
+R9
+Z45 nr_type@in_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vr_typeIn_vlg_sample_tst
+Z46 !s100 H<1H=5BWUIWE=VoRcj^M62
+Z47 I?SQja`ljHR_Tm7az31`@j2
+Z48 VehZ`NZ258SlU8T0a[TC9;0
+R3
+R42
+R18
+R19
+L0 29
+R7
+r1
+31
+R43
+R44
+R22
+R9
+Z49 nr_type@in_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vr_typeIn_vlg_vec_tst
+Z50 !s100 3HmlA]5W4[:CL`]XR8KXN3
+Z51 IOlbM2>kMh4L2emHcCn@A]2
+Z52 VRUIYMzaDX5ONPJ[o^QYJ@0
+R3
+R42
+R18
+R19
+Z53 L0 1635
+R7
+r1
+31
+R43
+R44
+R22
+R9
+Z54 nr_type@in_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0
