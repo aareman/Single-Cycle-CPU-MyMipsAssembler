@@ -1,0 +1,15 @@
+library ieee; 
+use ieee.std_logic_1164.all; 
+
+--This module reads the instruction, determines if it is r, i, or j format.
+--Then it sets the appropriate mux signals
+entity InstructionMan is     
+	port (opCode: in std_logic_vector(31 downto 0);
+			;    -- clock and reset 
+end InstructionMan; 
+	-- purpose: Main 	architecture details for SIMPREG 
+architecture arch of InstructionMan is 
+	begin
+
+end arch;
+
